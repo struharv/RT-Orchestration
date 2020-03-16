@@ -20,8 +20,9 @@ def init_requirements():
 
 
 
-
-orchestrator = Orchestrator(init_nodes(), init_requirements())
+# init_requirements()
+orchestrator = Orchestrator(init_nodes())
+orchestrator.print_nodes()
 
 
 
